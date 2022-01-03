@@ -1,0 +1,30 @@
+{
+  "name": "@jdthornton/modalprovider",
+  "version": "1.0.6",
+  "description": "React modal context provider with hooks for easy usability",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Jake Thornton",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^17.0.2",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@jdthornton/useinert": "^1.1.3",
+    "@jdthornton/usekeypress": "^1.1.6",
+    "@jdthornton/uselockbodyscroll": "^1.0.2"
+  },
+  "files": [
+    "/dist",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdthornton/modalprovider.git"
+  }
+}
